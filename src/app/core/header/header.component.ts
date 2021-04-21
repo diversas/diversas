@@ -7,7 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  collapse(){
+    this.show = !this.show;
+  }
+
+  onResize(){
+    this.show = false;
+  }
+
+  show : boolean = false;
+
+  constructor() {
+
+  }
 
   ngOnInit(): void {
   }

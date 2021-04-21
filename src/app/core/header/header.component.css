@@ -1,0 +1,19 @@
+.header-principal{
+    background-color: rgba(0,0,0,1);
+    height: 100px;
+}
+
+.header-principal .logo{
+    width: 100px;
+    height: 100px;
+}
+
+.header-principal a{
+    color: #fff;
+    margin-left: 48px;
+    font-size: 20px;
+}
+
+.collapse.navbar-collapse.show{
+    background-color: #000;
+}
