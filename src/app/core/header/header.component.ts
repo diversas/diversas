@@ -17,9 +17,9 @@ export class HeaderComponent implements OnInit {
 
   show : boolean = false;
 
-  constructor() {
+  imageLogo = '/assets/img/logo-diversas.png'
 
-  }
+  constructor() { }
 
   ngOnInit(): void {
   }
