@@ -17,7 +17,8 @@ export class HeaderComponent implements OnInit {
 
   show : boolean = false;
 
-  imageLogo = '/assets/img/logo-diversas.png'
+  imageLogo = '/assets/img/logo-diversas.png';
+  imageBackground = '/assets/img/header-bg.png';
 
   constructor() { }
 

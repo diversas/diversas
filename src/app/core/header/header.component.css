@@ -1,11 +1,16 @@
+.header-fullbanner{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .header-principal{
-    background-color: rgba(0,0,0,1);
     height: 10vh;
 }
 
 .header-principal .logo{
-    width: 100px;
-    height: 100px;
+    width: 10vh;
+    height: 10vh;
+    margin: -10px;
 }
 
 .header-principal a{
@@ -15,5 +20,17 @@
 }
 
 .collapse.navbar-collapse.show{
-    background-color: #000;
+    background-color: transparent;
+}
+
+.banner .jumbotron{
+    background-color: transparent;
+    min-height: 700px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.banner .jumbotron span.brand{
+    color: #FF0000;
 }
